@@ -13,11 +13,21 @@
         width: 100%;
         border:none;
       }
+
+      @media print{
+        element.flex.justify-center
+           {
+             display: none;
+           }
+        }
 </style>
 </head>
 <body>
 
-<iframe src="https://app.unlock-protocol.com/checkout?paywallConfig=%7B%22locks%22%3A%7B%220xacc9fc94c8b17a3d146c1c9dc1809c2bb6479767%22%3A%7B%22network%22%3A5%7D%7D%2C%22pessimistic%22%3Atrue%2C%22title%22%3A%22Sounds+Good+Ticketing%22%2C%22icon%22%3A%22https%3A%2F%2Fcloudflare-ipfs.com%2Fipfs%2Fbafybeiedcdbkpwfmkuy72kz4wtf7h63w43izpor4siqo2xp5vidtyoqbee%2FScreenshot%25202022-11-06%2520at%252001.59.02.png%22%2C%22persistentCheckout%22%3Atrue%2C%22referrer%22%3A%22%22%2C%22messageToSign%22%3A%22%22%2C%22hideSoldOut%22%3Afalse%7D"></iframe>
+<iframe src="https://app.unlock-protocol.com/checkout?paywallConfig=%7B%22locks%22%3A%7B%220xacc9fc94c8b17a3d146c1c9dc1809c2bb6479767%22%3A%7B%22network%22%3A5%2C%22name%22%3A%22%22%2C%22captcha%22%3Afalse%2C%22password%22%3Afalse%2C%22emailRequired%22%3Atrue%2C%22maxRecipients%22%3A%22%22%2C%22dataBuilder%22%3A%22%22%2C%22metadataInputs%22%3A%5B%7B%22type%22%3A%22text%22%2C%22name%22%3A%22Your+Name%22%2C%22required%22%3Atrue%2C%22placeholder%22%3A%22Full+Name%22%2C%22public%22%3Afalse%7D%5D%7D%7D%2C%22pessimistic%22%3Atrue%2C%22title%22%3A%22Sounds+Good+Ticketing%22%2C%22icon%22%3A%22https%3A%2F%2Fcloudflare-ipfs.com%2Fipfs%2Fbafybeiedcdbkpwfmkuy72kz4wtf7h63w43izpor4siqo2xp5vidtyoqbee%2FScreenshot%25202022-11-06%2520at%252001.59.02.png%22%2C%22persistentCheckout%22%3Atrue%2C%22referrer%22%3A%22%22%2C%22messageToSign%22%3A%22%22%2C%22hideSoldOut%22%3Afalse%7D"
+
+
+></iframe>
 
 
 </body>
